@@ -2,7 +2,7 @@
 *.class
 
 # Package Files #
-.war
+*.war
 *.ear
 
 #local use files
@@ -21,7 +21,7 @@ liqubase.properties
 # /docker-compose.yml
 # dev/
 # Additional build files
-src/main/resources/adminPassword.txt
-/OEInstaller/
-/docs_back
-/bin/
+# src/main/resources/adminPassword.txt
+# /OEInstaller/
+# /docs_back
+# /bin/
