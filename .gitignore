@@ -1,18 +1,27 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# compiled code #
+*.class
 
-# Other files and folders
+# Package Files #
+*.war
+*.ear
+
+#local use files
+liqubase.properties
+
+# IDE files #
+.classpath
 .settings/
+.project
+.factorypath
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Maven Files #
+*target/
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+#Developer specific docker-compose
+/docker-compose.yml
+dev/
+# Additional build files
+src/main/resources/adminPassword.txt
+/OEInstaller/
+/docs_back
+/bin/
